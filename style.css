@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.logo{
+    display: inline;
+    padding-left: 2rem;
+}
+
+.item ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 3rem;
+    color: black;
+    font-size: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+#home{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: lightgray;
+}
+
+h1{
+    color: rgb(87, 87, 255);
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+.image{
+    position: relative;
+}
+
+.content{
+    top: 2rem;
+}
+
+.content p{
+    padding-top:2rem;
+    font-size: 1.8rem;
+}
+
+#about{
+    height: 100vh;
+    background-color: lightgray;
+}
+
+#about p{
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+#gallary{
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    padding-left: 6rem;
+    padding-top: 4rem;
+}
+
+.gallary_item {
+    padding: 2rem;
+}
+
+.gallary_item h4{
+    padding: 1rem 0rem;
+}
+
+#feedback{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    background-color: lightgray;
+}
+
+form{
+    width: 50vw;
+    height: 660px;
+    position: relative;
+    padding: 1rem 4rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;   
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+input{
+    width: 49rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 0.3rem;
+    margin: 1rem 0rem;
+    font-size: 1.1rem;
+}
+
+select{
+    width: 50.3rem;
+    height: 2.6rem;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+textarea{
+    width: 49.2rem;
+    height: 15rem;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+
+button{
+    padding: 0.7rem 2rem;
+    margin-top: 1rem 0rem;
+    border-radius: 0.3rem;
+    background-color: cyan;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+footer{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
